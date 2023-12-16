@@ -7,6 +7,15 @@
 
 > A simple FM radio using Arduino and TEA5767 FM Radio Module with an OLED display and rotary encoder to tune radio stations.
 
+## Features
+> Radio Tuning: Using the rotary encoder, you can adjust the radio frequency between 87.5 MHz and 108 MHz.
+
+> Frequency Storage: The program utilizes the EEPROM library to store the last tuned frequency. This ensures that when the device is restarted, it starts at the last tuned frequency.
+
+> Signal Strength Display: The program displays the signal strength on the OLED display, represented by a series of bars.
+
+> Stereo Indicator LED: There's an LED connected to pin 6 (LED_PIN) that indicates whether the radio signal is in stereo or not. The LED is turned on when the signal is in stereo mode and turned off otherwise.
+
 ## Install
 
 > Install required libraries using the following repositories
